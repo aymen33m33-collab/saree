@@ -7,26 +7,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { useToast } from '@/hooks/use-toast';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import DriverMapView from '@/components/maps/DriverMapView';
-import {
-  Truck,
-  MapPin,
-  Clock,
-  DollarSign,
-  LogOut,
-  Navigation,
-  Phone,
-  CheckCircle,
-  Package,
-  TrendingUp,
-  Activity,
-  Menu,
-  User,
-  Calendar,
-  Bell,
-  Settings,
-  History,
-  MapPinned
-} from 'lucide-react';
+import { Truck, MapPin, Clock, DollarSign, LogOut, Navigation, Phone, CircleCheck as CheckCircle, Package, TrendingUp, Activity, Menu, User, Calendar, Bell, Settings, History, MapPinned } from 'lucide-react';
 
 interface Order {
   id: string;
